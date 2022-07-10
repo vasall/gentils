@@ -22,7 +22,7 @@ enum alarm_prio {
  *
  * Returns: 0 on success or -1 if an error occurrs
  */
-GTLS_API int alarm_log(enum alarm_prio prio, const char *format, ...);
+GTLS_API s8 alarm_log(enum alarm_prio prio, const char *format, ...);
 
 
 /*

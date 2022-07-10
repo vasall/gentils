@@ -2,7 +2,7 @@
 
 #include <stdarg.h>
 
-GTLS_API int alarm_log(enum alarm_prio prio, const char *format, ...)
+GTLS_API s8 alarm_log(enum alarm_prio prio, const char *format, ...)
 {
 	FILE *file;
 	va_list args;
