@@ -1,7 +1,10 @@
 #ifndef _GENTILS_DATA_TYPES_H
 #define _GENTILS_DATA_TYPES_H
 
-#include "stdint.h"
+#include "define.h"
+#include "imports.h"
+
+#include <stdint.h>
 
 typedef uint8_t                u8;
 typedef uint16_t               u16;
